@@ -2,6 +2,13 @@
 
 A feature-rich web camera project for ESP32-S3 with OV2640 camera, bidirectional audio (microphone and speaker), and real-time streaming over WiFi.
 
+> [!WARNING]
+> **AI-Powered Project Disclaimer**
+>
+> This project was developed with AI assistance. The code is provided "as is" without any warranty or guarantee. The author assumes no responsibility for any damage, data loss, hardware failure, or other issues that may arise from using this code.
+>
+> **Use at your own risk!** Always test thoroughly before deploying in production environments.
+
 ## Features
 
 - 📹 **Live Video Streaming** - MJPEG stream accessible via web browser
