@@ -1,0 +1,24 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "idf.adapterTargetName": "esp32s3",
+    "idf.customExtraPaths": "f:\\ESP-IDF\\510\\tools\\tools\\xtensa-esp-elf-gdb\\12.1_20221002\\xtensa-esp-elf-gdb\\bin;f:\\ESP-IDF\\510\\tools\\tools\\riscv32-esp-elf-gdb\\12.1_20221002\\riscv32-esp-elf-gdb\\bin;f:\\ESP-IDF\\510\\tools\\tools\\xtensa-esp32-elf\\esp-12.2.0_20230208\\xtensa-esp32-elf\\bin;f:\\ESP-IDF\\510\\tools\\tools\\xtensa-esp32s2-elf\\esp-12.2.0_20230208\\xtensa-esp32s2-elf\\bin;f:\\ESP-IDF\\510\\tools\\tools\\xtensa-esp32s3-elf\\esp-12.2.0_20230208\\xtensa-esp32s3-elf\\bin;f:\\ESP-IDF\\510\\tools\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin;f:\\ESP-IDF\\510\\tools\\tools\\esp32ulp-elf\\2.35_20220830\\esp32ulp-elf\\bin;f:\\ESP-IDF\\510\\tools\\tools\\cmake\\3.24.0\\bin;f:\\ESP-IDF\\510\\tools\\tools\\openocd-esp32\\v0.12.0-esp32-20230921\\openocd-esp32\\bin;f:\\ESP-IDF\\510\\tools\\tools\\ninja\\1.10.2;f:\\ESP-IDF\\510\\tools\\tools\\idf-exe\\1.0.3;f:\\ESP-IDF\\510\\tools\\tools\\ccache\\4.8\\ccache-4.8-windows-x86_64;f:\\ESP-IDF\\510\\tools\\tools\\dfu-util\\0.11\\dfu-util-0.11-win64;f:\\ESP-IDF\\510\\tools\\tools\\esp-rom-elfs\\20230320",
+    "idf.customExtraVars": {
+        "OPENOCD_SCRIPTS": "f:\\ESP-IDF\\510\\tools\\tools\\openocd-esp32\\v0.12.0-esp32-20230921/openocd-esp32/share/openocd/scripts",
+        "IDF_CCACHE_ENABLE": "1",
+        "ESP_ROM_ELF_DIR": "f:\\ESP-IDF\\510\\tools\\tools\\esp-rom-elfs\\20230320/"
+    },
+    "idf.espIdfPathWin": "f:\\ESP-IDF\\510\\esp-idf_v5.1\\esp-idf",
+    "idf.espAdfPathWin": "F:\\ESP-IDF\\esp-adf",
+    "idf.openOcdConfigs": [
+        "interface/ftdi/esp32_devkitj_v1.cfg",
+        "target/esp32s3.cfg"
+    ],
+    "idf.portWin": "COM38",
+    "idf.pythonBinPathWin": "f:\\ESP-IDF\\510\\tools\\python_env\\idf5.1_py3.11_env\\Scripts\\python.exe",
+    "idf.toolsPathWin": "f:\\ESP-IDF\\510\\tools",
+    "idf.flashType": "UART",
+    "files.associations": {
+        "i2s_std.h": "c",
+        "i2s_common.h": "c"
+    }
+}
