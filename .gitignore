@@ -1,0 +1,20 @@
+# User credentials (do not commit!)
+*/user_config.ino
+
+
+# Arduino build files
+*.bin
+*.elf
+*.hex
+build/
+
+# IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# macOS
+.DS_Store
+
+# Logs
+*.log

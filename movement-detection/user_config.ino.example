@@ -1,0 +1,43 @@
+#include <Arduino.h>
+#include "esp_camera.h"
+
+// ==================== USER CONFIGURATION ====================
+// Edit these values according to your needs
+
+// WiFi Settings
+const char* WIFI_SSID = "YOUR_WIFI_SSID";
+const char* WIFI_PASSWORD = "YOUR_WIFI_PASSWORD";
+
+// Telegram Bot Settings
+const char* TELEGRAM_BOT_TOKEN = "YOUR_BOT_TOKEN";        // Get from @BotFather
+const char* TELEGRAM_CHAT_ID = "YOUR_CHAT_ID";            // Your chat ID or group ID
+
+
+// Camera Settings
+const int CAMERA_FRAME_SIZE = FRAMESIZE_SVGA;              // SVGA (800x600) for better quality
+const int CAMERA_JPEG_QUALITY = 12;                        // Better quality (0=best, 63=worst)
+const int CAMERA_FB_COUNT = 2;                             // Frame buffers (1-2)
+
+// Motion Detection Settings (PIR sensor only)
+const int MOTION_COOLDOWN_MS = 10000;                     // 10 seconds between detections (prevent false triggers from heat)
+const int PIR_TRIGGER_DURATION_MS = 150;                  // PIR must stay HIGH for this long to be valid (filter false triggers)
+const int PHOTOS_PER_BURST = 3;                           // Number of photos per motion event (1-5)
+const int PHOTO_BURST_DELAY_MS = 300;                     // Delay between photos in burst (milliseconds)
+
+// SD Card Settings
+const bool SD_CARD_ENABLED = true;                        // Enable/disable SD card saving
+const char* SD_PHOTO_DIR = "/motion";                     // Directory for photos on SD card
+
+// Telegram Settings
+const bool TELEGRAM_ENABLED = true;                       // Enable/disable Telegram notifications
+const bool TELEGRAM_SEND_PHOTO = true;                    // Send photo with notification
+const char* TELEGRAM_MOTION_MESSAGE = "🚨 Motion detected!"; // Message text
+
+// LED Indicator Settings
+const bool LED_INDICATOR_ENABLED = true;                  // Enable/disable LED indicator
+const int LED_FLASH_DURATION_MS = 500;                    // LED flash duration on motion
+
+// Debug Settings
+const bool DEBUG_SERIAL_ENABLED = true;                   // Enable serial debug output
+
+// ==================== END USER CONFIGURATION ====================
