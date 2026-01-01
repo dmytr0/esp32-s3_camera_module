@@ -9,3 +9,6 @@
 > **Use at your own risk!** Test thoroughly before deploying.
 
 * [Docs](ESP32_s3_CAM_DOCs)
+* [Movement detection](movement-detection)
+* [Web camera with audio](web-cam-esp32-s3)
+* [SD card test](sd-card-test-spi)
